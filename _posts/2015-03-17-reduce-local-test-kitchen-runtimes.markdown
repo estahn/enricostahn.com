@@ -29,5 +29,5 @@ Another idea is to use an HTTP Proxy as an intermediate to store any kind of dow
 
 I had mediocre success with polipo, even after building it from master. A more stable solution is [SquidMan](http://squidman.net/squidman/). It's a fancy interface on top Squid.
 ![SquidMan - Preferences - General](/assets/images/squidman-preferences-general.png)
-You want to bump up the cache size and maximum object size to maximum. And allow access to either your IP or an entire network range.
+You want to bump up the *Cache size* and *Maximum object size* to maximum. And allow access to either your IP or an entire network range.
 ![SquidMan - Preferences - Clients](/assets/images/squidman-preferences-clients.png)
