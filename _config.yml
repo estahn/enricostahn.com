@@ -12,7 +12,7 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: enricostahn.com
-google_analytics: UA-XXXXXXXX-X
+google_analytics: UA-416081-1
 
 # Details for the RSS feed generator
 url: http://enricostahn.com
