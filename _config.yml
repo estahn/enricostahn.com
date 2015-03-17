@@ -1,0 +1,42 @@
+gems:
+  - jekyll-sitemap
+
+name: Enrico Stahn
+description: Blogging about stuffs
+meta_description: "Random thoughts about eventual useful stuffs"
+
+permalink: "/:title"
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: enricostahn.com
+google_analytics: UA-XXXXXXXX-X
+
+# Details for the RSS feed generator
+url: http://enricostahn.com
+author: Enrico Stahn
+
+github_username: estahn
+twitter_username: estahn
+
+picture:
+  source: assets/images
+  output: generated
+  markup: picture
+  presets:
+    # Full width pictures
+    default:
+      ppi: [1, 1.5]
+      attr:
+        itemprop: image
+      source_lrg:
+        media: "(min-width: 40em)"
+        width: 700
+      source_med:
+        media: "(min-width: 30em)"
+        width: 450
+      source_default:
+        width: 350
+        height: 200
