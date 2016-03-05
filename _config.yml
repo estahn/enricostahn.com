@@ -1,5 +1,7 @@
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
 
 name: Enrico Stahn
 description: Blogging about stuffs
