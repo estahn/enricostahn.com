@@ -1,10 +1,12 @@
 ---
 layout: post
 subtitle: null
-date: ""
+date: "2016-03-25"
 published: false
 title: Fame and fortune with API response testing
 ---
+
+
 
 
 ## Resources
