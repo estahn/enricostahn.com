@@ -1,5 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: 
+subtitle: null
+published: true
 ---
+
