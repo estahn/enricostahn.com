@@ -3,42 +3,114 @@ gems:
   - jekyll-paginate
   - jekyll-feed
 
-name: Enrico Stahn
-description: Blogging about stuffs
-meta_description: "Random thoughts about eventual useful stuffs"
+url: "http://enricostahn.com"
+baseurl: ""
+title: Enrico Stahn
+description: Random thoughts about stuffs
+avatar: "/img/me.jpg"
 
-permalink: "/:title"
-markdown: redcarpet
-highlighter: pygments
-logo: false
-paginate: 15
-baseurl: /
-domain_name: enricostahn.com
-google_analytics: UA-416081-1
+# --- Navigation bar options --- #
 
-# Details for the RSS feed generator
-url: http://enricostahn.com
-author: Enrico Stahn
+navbar-links:
+  About Me: "about-me"
 
-github_username: estahn
-twitter_username: estahn
+# --- Footer options --- #
 
-picture:
-  source: assets/images
-  output: generated
-  markup: picture
-  presets:
-    # Full width pictures
-    default:
-      ppi: [1, 1.5]
-      attr:
-        itemprop: image
-      source_lrg:
-        media: "(min-width: 40em)"
-        width: 700
-      source_med:
-        media: "(min-width: 30em)"
-        width: 450
-      source_default:
-        width: 350
-        height: 200
+author:
+  name: Enrico Stahn
+  email: "enrico.stahn@gmail.com"
+  facebook: stahn
+  github: estahn
+  twitter: estahn
+  linkedin: in/enricostahn
+  stackoverflow: 38250/enrico-stahn
+
+# Select which links to show in the footer
+footer-links-active:
+  rss: false
+  facebook: true
+  email: false
+  twitter: true
+  github: true
+  linkedin: true
+  stackoverflow: true
+
+url-pretty: "enricostahn.com"
+
+disqus: "estahn"
+google_analytics: "UA-416081-1"
+
+timezone: "Australia/Sydney"
+markdown: kramdown
+highlighter: rouge
+permalink: /:title
+paginate: 5
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true  # add comments to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "default"
+      show-avatar: true
+
+# Exclude these files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - Vagrantfile
+
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."

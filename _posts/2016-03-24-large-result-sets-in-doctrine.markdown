@@ -1,11 +1,12 @@
 ---
 published: false
 title: Large result sets in Doctrine
+subtitle:
 layout: post
 tags: [doctrine, buffered, queries, pdo]
 ---
 * (Unbuffered Queries)
-* 
+*
 
 ## Resources
 
