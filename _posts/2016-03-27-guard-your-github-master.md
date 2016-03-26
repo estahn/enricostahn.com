@@ -1,8 +1,8 @@
 ---
 layout: post
 subtitle: null
-date: ""
-published: false
+date: "2016-03-27"
+published: true
 title: Guard your GitHub master
 ---
 
