@@ -2,6 +2,8 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-feed
+  - jekyll-mentions
+  - jemoji
 
 url: "http://enricostahn.com"
 baseurl: ""
