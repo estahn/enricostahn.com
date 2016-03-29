@@ -42,7 +42,7 @@ With code coverage minimum checks we'll make sure the code coverage percentage d
 
 ## Required Guardians
 
-You and your team need to decided what can be a deal breaker for a merge and what is optional. At [Zanui](https://www.zanui.com.au/) we require our style checks to be completed (which works automatically anyways) and our tests to finish successfully. However, we don't require Codacy or Code coverage minimum requirements to be successful. Codacy provides the coder/reviewer with a list of issues on what could be improved, but we didn't find all reported issues make sense. Code coverage minimum requirements were just introduced recently and are in a trial phase so everyone gets used to them.
+You and your team need to decide what can be a deal breaker for a merge and what is optional. At [Zanui](https://www.zanui.com.au/) we require our style checks to be completed (which works automatically anyways) and our tests to finish successfully. However, we don't require Codacy or Code coverage minimum requirements to be successful. Codacy provides the coder/reviewer with a list of issues on what could be improved, but we didn't find all reported issues make sense. Code coverage minimum requirements were just introduced recently and are in a trial phase so everyone gets used to them.
 
 Being able to selectively decide what is required provides a lot of flexibility in optimizing your software development process.
 
