@@ -4,12 +4,15 @@ gems:
   - jekyll-feed
   - jekyll-mentions
   - jemoji
+  - jekyll-redirect-from
+  - jekyll-seo-tag
 
 url: "http://enricostahn.com"
 baseurl: ""
 title: Enrico Stahn
 description: Random thoughts about stuffs
 avatar: "/img/me.jpg"
+logo: "img/me.jpg"
 
 # --- Navigation bar options --- #
 
@@ -47,6 +50,12 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:title
 paginate: 5
+
+twitter:
+  username: estahn
+
+facebook:
+  publisher: https://facebook.com/stahn
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
