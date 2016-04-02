@@ -16,7 +16,6 @@ The database we’re working on has some strange design issues and some of them 
 4. Set the necessary column properties (e.g. default, not null, etc.)
 
 Example for table `foo` and column `id`:
-
 ```sql
 ALTER TABLE "public"."foo" ADD COLUMN "id" INTEGER;
 CREATE SEQUENCE "public"."foo_id_seq";
