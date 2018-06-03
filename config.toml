@@ -1,0 +1,68 @@
+baseURL = "https://enricostahn.com/"
+languageCode = "en-us"
+title = "Enrico Stahn"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+googleAnalytics = "UA-416081-1"
+# disqusShortname = "estahn"
+
+[Params]
+  homeTitle = "Hi, I'm Enrico"
+  subtitle = "Software Engineer / Technology evangelist / Rock Climber"
+  logo = "img/me.jpg"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = true
+
+[Params.staticman]
+api = "https://api.staticman.net/v2/entry/estahn/estahn.github.io/master/comments"
+pulls = "https://github.com/estahn/estahn.github.io/pulls"
+
+[Params.staticman.recaptcha]
+sitekey = "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
+secret = "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
+
+[[Params.bigimg]]
+  src = "img/home-bigimg.jpg"
+  desc = "Blue Mountains, NSW, Australia"
+
+[Author]
+  name = "Enrico Stahn"
+  website = "enricostahn.com"
+  email = "enrico.stahn@gmail.com"
+  facebook = "stahn"
+  # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "estahn"
+  gitlab = "estahn"
+  #bitbucket = "username"
+  twitter = "estahn"
+  reddit = "estahn"
+  linkedin = "enricostahn"
+  xing = "Enrico_Stahn"
+  stackoverflow = "users/38250/enrico-stahn"
+  # snapchat = "username"
+  instagram = "estahn"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+
+  [[menu.main]]
+      name = "Blog"
+      url = ""
+      weight = 1
+
+  [[menu.main]]
+      name = "About"
+      url = "page/about/"
+      weight = 3

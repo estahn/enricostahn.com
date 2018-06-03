@@ -1,8 +1,5 @@
 ---
-layout: post
-subtitle: null
 date: "2016-03-27"
-published: true
 title: Guardians of the GitHub master
 ---
 
@@ -17,14 +14,14 @@ It will provide a safety net for your project. I recently suggested a feature in
 ## Block all the things & automate everything!
 
 The first step to fix the process is to enable the branch protection for master (or whatever branch you use as main branch).
-![GitHub Protected Branches]({{site.baseurl}}/img/github-protected-branches-config.png)
+![GitHub Protected Branches](/img/github-protected-branches-config.png)
 
-This will permit anyone to commit directly to master. Instead they will need to create a new branch and a pull request. The pull request can then be reviewed, either manually or automatically, preferably both ([Giving better code reviews — Medium](https://getpocket.com/a/read/1173023422)).
+This will stop anyone from committing to master directly. Instead they will need to create a new branch and a pull request. The pull request can then be reviewed, either manually or automatically, preferably both ([Giving better code reviews — Medium](https://getpocket.com/a/read/1173023422)).
 
 ## Guardians -- Check 1, Check 2, Check 3, ...
 
 The next step is to decide what checks are required to complete successfully before a pull request can be merged to your main branch.
-![github-protected-branches-checks.png]({{site.baseurl}}/img/github-protected-branches-checks.png)
+![github-protected-branches-checks.png](/img/github-protected-branches-checks.png)
 
 Pull Requests are a great tool, they can provide an overview on the impact of introduced changes. At [Zanui](https://www.zanui.com.au/) we're using them for:
 

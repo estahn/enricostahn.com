@@ -3,7 +3,7 @@ layout: post
 title:  "Reduce local test kitchen runtimes"
 date:   2015-03-17 09:00:00
 categories: devops
-tags:   chef kitchen devops
+tags:   ["chef", "kitchen", "devops"]
 github_username: estahn
 ---
 
