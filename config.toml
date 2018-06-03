@@ -1,4 +1,4 @@
-baseURL = "https://enricostahn.com/"
+#baseURL = "https://enricostahn.com/"
 languageCode = "en-us"
 title = "Enrico Stahn"
 theme = "beautifulhugo"
