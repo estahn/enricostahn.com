@@ -1,0 +1,4 @@
+# Redirect domain aliases to primary domain
+https://blog.enricostahn.com/* https://enricostahn.com/:splat 301!
+https://www.enricostahn.com/* https://enricostahn.com/:splat 301!
+
