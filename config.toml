@@ -28,7 +28,7 @@ xing = "Enrico_Stahn"
 comments = true
 commit = false
 homeTitle = "Hi, I'm Enrico"
-logo = "img/me.jpg"
+logo = "/img/me.jpg"
 readingTime = true
 rss = true
 socialShare = true
@@ -45,7 +45,7 @@ sitekey = "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
 
 [[Params.bigimg]]
 desc = "Blue Mountains, NSW, Australia"
-src = "img/home-bigimg.jpg"
+src = "/img/home-bigimg.jpg"
 
 [[menu.main]]
 name = "About"
