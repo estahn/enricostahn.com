@@ -1,6 +1,6 @@
-# [build]
-# publish = "public"
-# command = "hugo -b /"
+[build]
+publish = "public"
+command = "hugo -b /"
 
 [build.environment]
 HUGO_VERSION = "0.53"
