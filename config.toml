@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 theme = "beautifulhugo"
 title = "Enrico Stahn"
 canonifyurls = true
-disqusShortname = "enricostahn.com"
+disqusShortname = "estahn"
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
