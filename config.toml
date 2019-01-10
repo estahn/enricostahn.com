@@ -1,3 +1,4 @@
+baseURL = "/"
 googleAnalytics = "UA-416081-1"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -37,13 +38,13 @@ xing = "Enrico_Stahn"
   subtitle = "Software Engineer / Technology evangelist / Rock Climber"
   useHLJS = true
 
-[Params.staticman]
-api = "https://api.staticman.net/v2/entry/estahn/estahn.github.io/master/comments"
-pulls = "https://github.com/estahn/estahn.github.io/pulls"
-
-[Params.staticman.recaptcha]
-secret = "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
-sitekey = "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
+# [Params.staticman]
+# api = "https://api.staticman.net/v2/entry/estahn/estahn.github.io/master/comments"
+# pulls = "https://github.com/estahn/estahn.github.io/pulls"
+#
+# [Params.staticman.recaptcha]
+# secret = "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
+# sitekey = "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
 
 [[Params.bigimg]]
 desc = "Blue Mountains, NSW, Australia"
