@@ -1,9 +1,11 @@
 googleAnalytics = "UA-416081-1"
-languageCode = "en-us"
-defaultContentLanguage = "en-us"
+languageCode = "en"
+defaultContentLanguage = "en"
 theme = "beautifulhugo"
 title = "Enrico Stahn"
 canonifyurls = true
+disqusShortname = "enricostahn.com"
+
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "trac"
@@ -25,15 +27,15 @@ website = "enricostahn.com"
 xing = "Enrico_Stahn"
 
 [Params]
-comments = true
-commit = false
-homeTitle = "Hi, I'm Enrico"
-logo = "/img/me.jpg"
-readingTime = true
-rss = true
-socialShare = true
-subtitle = "Software Engineer / Technology evangelist / Rock Climber"
-useHLJS = true
+  comments = true
+  commit = false
+  homeTitle = "Hi, I'm Enrico"
+  logo = "/img/me.jpg"
+  readingTime = true
+  rss = true
+  socialShare = true
+  subtitle = "Software Engineer / Technology evangelist / Rock Climber"
+  useHLJS = true
 
 [Params.staticman]
 api = "https://api.staticman.net/v2/entry/estahn/estahn.github.io/master/comments"
