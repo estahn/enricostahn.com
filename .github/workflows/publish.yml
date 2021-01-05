@@ -13,6 +13,6 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      - uses: chabad360/hugo-gh-pages@master
+      - uses: chabad360/hugo-gh-pages@v2
         with:
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
