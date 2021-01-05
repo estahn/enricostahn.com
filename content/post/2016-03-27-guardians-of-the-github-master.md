@@ -1,6 +1,7 @@
 ---
 date: "2016-03-27"
 title: Guardians of the GitHub master
+toc: true
 ---
 
 **TL;DR**: Use GitHub protected branches with required status checks.
