@@ -1,60 +1,48 @@
-baseURL = "/"
+baseURL = "https://enricostahn.com/"
 googleAnalytics = "UA-416081-1"
-languageCode = "en"
-defaultContentLanguage = "en"
-theme = "beautifulhugo"
+languageCode = "en-us"
+theme = "codex"
 title = "Enrico Stahn"
-canonifyurls = true
-disqusShortname = "estahn"
+copyright = "Enrico Stahn © 2011 - {year}"
+enableEmoji = true
 
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsStyle = "trac"
-pygmentsUseClasses = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    #style = "dracula"
+    noClasses = false
+    tabWidth = 2
 
-[Author]
-email = "enrico.stahn@gmail.com"
-location = "Australia"
-facebook = "stahn"
-github = "estahn"
-gitlab = "estahn"
-instagram = "estahn"
-linkedin = "enricostahn"
-name = "Enrico Stahn"
-reddit = "estahn"
-stackoverflow = "users/38250/enrico-stahn"
-twitter = "estahn"
-website = "enricostahn.com"
-xing = "Enrico_Stahn"
+[params]
+	author = "Enrico Stahn"
+	description = "Thoughts about things."
+	keywords = ""
+	avatar = "avatar.jpg"
 
-[Params]
-  comments = true
-  commit = false
-  homeTitle = "Hi, I'm Enrico"
-  logo = "/img/me.jpg"
-  readingTime = true
-  rss = true
-  socialShare = true
-  subtitle = "Software Engineer / Technology evangelist / Rock Climber"
-  useHLJS = true
+  twitter = "https://twitter.com/estahn"
+  github = "https://github.com/estahn"
+  linkedin = "https://www.linkedin.com/in/enricostahn/"
+  email = "mailto:enrico.stahn@gmail.com"
 
-# [Params.staticman]
-# api = "https://api.staticman.net/v2/entry/estahn/estahn.github.io/master/comments"
-# pulls = "https://github.com/estahn/estahn.github.io/pulls"
-#
-# [Params.staticman.recaptcha]
-# secret = "hsGjWtWHR4HK4pT7cUsWTArJdZDxxE2pkdg/ArwCguqYQrhuubjj3RS9C5qa8xu4cx/Y9EwHwAMEeXPCZbLR9eW1K9LshissvNcYFfC/b8KKb4deH4V1+oqJEk/JcoK6jp6Rr2nZV4rjDP9M7nunC3WR5UGwMIYb8kKhur9pAic="
-# sitekey = "6LeGeTgUAAAAAAqVrfTwox1kJQFdWl-mLzKasV0v"
+[menu]
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 
-[[Params.bigimg]]
-desc = "Blue Mountains, NSW, Australia"
-src = "/img/home-bigimg.jpg"
+  [[menu.main]]
+  name = "Posts"
+  weight = 2
+  url = "/post"
 
-[[menu.main]]
-name = "About"
-url = "/page/about/"
-weight = 2
+  #[[menu.main]]
+  #name = "About"
+  #url = "/page/about/"
+  #weight = 2
 
-[[menu.main]]
-name = "Blog"
-weight = 1
+[outputs]
+home = [ "HTML", "RSS" ]
