@@ -19,8 +19,8 @@ enableEmoji = true
 [params]
   author = "Enrico Stahn"
   description = "Thoughts about things."
-  keywords = "Enrico Stahn, Enrico, Stahn, estahn, Software Engineer, DevOps, Climbing"
   avatar = "avatar.jpg"
+  name = "Enrico Stahn"
 
   twitter = "https://twitter.com/estahn"
   github = "https://github.com/estahn"
