@@ -13,15 +13,14 @@ enableEmoji = true
   [markup.highlight]
     codeFences = true
     guessSyntax = true
-    #style = "dracula"
     noClasses = false
     tabWidth = 2
 
 [params]
-	author = "Enrico Stahn"
-	description = "Thoughts about things."
-	keywords = "Enrico Stahn, Enrico, Stahn, estahn, Software Engineer, DevOps, Climbing"
-	avatar = "avatar.jpg"
+  author = "Enrico Stahn"
+  description = "Thoughts about things."
+  keywords = "Enrico Stahn, Enrico, Stahn, estahn, Software Engineer, DevOps, Climbing"
+  avatar = "avatar.jpg"
 
   twitter = "https://twitter.com/estahn"
   github = "https://github.com/estahn"
